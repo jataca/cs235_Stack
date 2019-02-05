@@ -39,6 +39,7 @@ void testErrors();
 int main()
 {
    // test comment 1
+   // test comment 2
    // menu
    cout << "Select the test you want to run:\n";
    cout << "\t1. Just create and destroy a Stack.\n";
