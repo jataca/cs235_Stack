@@ -4,7 +4,7 @@
 *    Brother Helfrich, CS 235
 * Author:
 *    Br. Helfrich
-* Summary: 
+* Summary:
 *    This is a driver program to exercise the Stack class.  When you
 *    submit your program, this should not be changed in any way.  That being
 *    said, you may need to modify this once or twice to get it to work.
@@ -38,6 +38,7 @@ void testErrors();
  ***********************************************************************/
 int main()
 {
+   // test comment 1
    // menu
    cout << "Select the test you want to run:\n";
    cout << "\t1. Just create and destroy a Stack.\n";
@@ -110,7 +111,7 @@ void testSimple()
       cout << "\tSize:  " << s1.size() << endl;
       cout << "\tEmpty? " << (s1.empty() ? "Yes" : "No") << endl;
    }
-   cout << "\tDestroying the third Stack\n";   
+   cout << "\tDestroying the third Stack\n";
 #endif //TEST1
 }
 
@@ -141,7 +142,7 @@ void testPush()
    // display how big it is
    cout << "\tSize:  " << s.size() << endl;
    cout << "\tEmpty? " << (s.empty() ? "Yes" : "No") << endl;
-#endif // TEST2   
+#endif // TEST2
 }
 
 /*******************************************
@@ -190,7 +191,7 @@ void testPop()
                break;
             default:
                cout << "\tInvalid command\n";
-         }            
+         }
       }
       while (instruction != '!');
    }
@@ -235,6 +236,6 @@ void testErrors()
    {
       cout << "\tStack::pop() error message correctly caught.\n"
            << "\t\"" << error << "\"\n";
-   }      
+   }
 #endif // TEST4
 }
